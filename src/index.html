@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>LoginApp</title>
+    <base href="/">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+    <!--===============================================================================================-->
+    <link rel="icon" type="image/png" href="assets/images/icons/favicon.ico" />
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="assets/vendor/animate/animate.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="assets/css/util.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+
+<body class="container">
+    <app-root></app-root>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-analytics.js"></script>
+
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyAa03-kB0PnU1cBtqjDL0SXSZ5EAb9au8A",
+            authDomain: "loginapp-bbee2.firebaseapp.com",
+            databaseURL: "https://loginapp-bbee2.firebaseio.com",
+            projectId: "loginapp-bbee2",
+            storageBucket: "loginapp-bbee2.appspot.com",
+            messagingSenderId: "827797101510",
+            appId: "1:827797101510:web:59ac1ce8671056dd1230c7",
+            measurementId: "G-RDLEXEEHX8"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+    </script>
+</body>
+
+</html>
